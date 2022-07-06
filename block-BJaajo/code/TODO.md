@@ -7,6 +7,9 @@ console.log('First');
 setTimeout(() => console.log('Second'), 0);
 console.log('Third');
 ```
+output//First
+Third
+Second
 
 2.
 
@@ -15,8 +18,8 @@ console.log('First');
 function secondCall() {
   console.log('Second');
 }
-setTimeout(secondCall, 2000); // execute this code after 1000 ms
-setTimeout(() => console.log('Third'), 0); // execute this code after 1000 ms
+setTimeout(secondCall, 2000); // SEcond
+setTimeout(() => console.log('Third'), 0); // third will be executed after 1000 ms
 console.log('Third');
 ```
 
