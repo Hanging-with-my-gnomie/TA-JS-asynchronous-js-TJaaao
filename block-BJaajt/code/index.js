@@ -15,7 +15,7 @@ function displayUI(data){
 function handleChange(event){
     if(event.keycode ===13){
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', ' https://api.github.com/users/${event.target.value}');
+        xhr.open('GET', ' url');
         xhr.onload = function (){
             let UserData = JSON.parse(xhr.response);
             displayUI(UserData);
