@@ -32,3 +32,4 @@ Promise.all([
   { name: 'John' },
 ]).then(console.log);
 ```
+code
